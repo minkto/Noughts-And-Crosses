@@ -5,19 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NoughtsAndCrosses {
-    class Grid {
+    public class Grid {
 
-        Cell[,] grid;
-        Player player;
+        public Cell[,] grid;
+        public Player player;
+       
 
         public Grid() {
             // 1. Initialise the grid.
             grid = new Cell[3, 3];
 
             // 2. Set all the cells as null.
-            for (int i = 0; i < grid.Length; i++) {
-                for (int j = 0; j < grid.Length; j++) {
-                    grid[i, j].Symbol = null;
+            for (int i = 0; i < grid.GetLength(0); i++) {
+                for (int j = 0; j < grid.GetLength(0); j++) {
+                    grid[i, j] = new Cell();
+                    
+                                     
                 }
             }
 
@@ -26,7 +29,7 @@ namespace NoughtsAndCrosses {
         public bool CheckVerticalWin() {
             // Check rows vertcally all match a certain symbol.
 
-            for (int i = 0; i < grid.Length; i++) {
+            for (int i = 0; i < grid.GetLength(0); i++) {
                 if (grid[0, i].Symbol == player.SymbolType && grid[1, i].Symbol == player.SymbolType && grid[2, i].Symbol == player.SymbolType) {
                     return true;
                 }
@@ -40,7 +43,7 @@ namespace NoughtsAndCrosses {
         public bool CheckHorizontalWin() {
             // Check rows horizonally all match a certain symbol.
 
-            for (int i = 0; i < grid.Length; i++) {
+            for (int i = 0; i < grid.GetLength(0); i++) {
                 if (grid[i, 0].Symbol == player.SymbolType && grid[i, 1].Symbol == player.SymbolType && grid[i, 2].Symbol == player.SymbolType) {
                     return true;
                 }
@@ -60,9 +63,9 @@ namespace NoughtsAndCrosses {
 
 
 
-            i = grid.Length;
+            i = grid.GetLength(0) - 1;
 
-            if (grid[i, i].Symbol == player.SymbolType && grid[i - 1, i - 1].Symbol == player.SymbolType && grid[i - 2, i - 2].Symbol == player.SymbolType) {
+            if (grid[i, 0].Symbol == player.SymbolType && grid[i-1, i-1].Symbol == player.SymbolType && grid[i-2, i].Symbol == player.SymbolType) {
                 return true;
             }
 
@@ -70,8 +73,30 @@ namespace NoughtsAndCrosses {
             return false;
         }
 
+        public bool CheckWin() {
+            if (CheckHorizontalWin() || CheckVerticalWin() || CheckDiagonalWin()) {
+                Console.WriteLine("A player has won!!!");
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+
+        public void ChangePlayer(Player player1,Player player2) {
+            if (this.player.Equals(player1)) {
+                this.player = player2;
+            }
+            else {
+                this.player = player1;
+            }
+        }
+
+
+        
+
     } // end class
 
 
-} 
+}
 

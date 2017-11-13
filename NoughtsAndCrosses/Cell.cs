@@ -5,18 +5,38 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace NoughtsAndCrosses {
-    class Cell {
+    public class Cell {
 
-        //
+
         private string symbol;
+
+        public Cell() {
+            symbol = "EMPTY";
+        }
 
         public string Symbol {
             get {
                 return symbol;
-            } set {
-                symbol = value;
+            }
+            set {
+                if (IsCellEmpty()) {
+                    symbol = value;
+                }
             }
         }
+
+
+        public bool IsCellEmpty() {
+            if (symbol.Equals("EMPTY")) {                             
+                return true;
+            }
+            else {
+                return false;
+            }
+
+        }
+
+
 
     }
 }

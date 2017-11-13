@@ -7,3 +7,12 @@ C:\Users\Paul\Documents\My_Portfolio\NoughtsAndCrosses\NoughtsAndCrosses\obj\Deb
 C:\Users\Paul\Documents\My_Portfolio\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.csproj.GenerateResource.Cache
 C:\Users\Paul\Documents\My_Portfolio\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.exe
 C:\Users\Paul\Documents\My_Portfolio\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.pdb
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.exe.config
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.exe
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.pdb
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.exe
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\bin\Debug\NoughtsAndCrosses.pdb
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.Form1.resources
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.Properties.Resources.resources
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Debug\NoughtsAndCrosses.csproj.GenerateResource.Cache
