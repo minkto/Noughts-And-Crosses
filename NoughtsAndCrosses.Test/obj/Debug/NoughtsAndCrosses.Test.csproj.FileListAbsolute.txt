@@ -1,0 +1,7 @@
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses.Test\bin\Debug\NoughtsAndCrosses.Test.dll
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses.Test\bin\Debug\NoughtsAndCrosses.Test.pdb
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses.Test\bin\Debug\NoughtsAndCrosses.exe
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses.Test\bin\Debug\NoughtsAndCrosses.pdb
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses.Test\obj\Debug\NoughtsAndCrosses.Test.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses.Test\obj\Debug\NoughtsAndCrosses.Test.dll
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses.Test\obj\Debug\NoughtsAndCrosses.Test.pdb
