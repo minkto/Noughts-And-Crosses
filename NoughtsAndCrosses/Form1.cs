@@ -26,6 +26,12 @@ namespace NoughtsAndCrosses {
 
         }
 
+        /// <summary>
+        /// Places a symbol on the grid and shows it via the UI.
+        /// </summary>
+        /// <param name="row"> The row to be selected.</param>
+        /// <param name="col"> The column to be selected.</param>
+        /// <param name="button"> The button which has been selected.</param>
         private void PlayMove(int row ,int col,Button button) {
             if (mainGrid.grid[row, col].IsCellEmpty()) {
                 mainGrid.grid[row, col].Symbol = mainGrid.player.SymbolType;
@@ -36,7 +42,6 @@ namespace NoughtsAndCrosses {
                     DisableGrid();
                     IncrementScore();
                     WinnerLabel.Visible = true;
-
                 }
                 else {
 
@@ -81,6 +86,10 @@ namespace NoughtsAndCrosses {
             PlayMove(2, 2,cell_2_2);
         }
 
+
+        /// <summary>
+        /// Disables all the buttons used to place symbols.
+        /// </summary>
         public void DisableGrid() {
             cell_0_0.Enabled = false;
             cell_0_1.Enabled = false;
@@ -94,7 +103,10 @@ namespace NoughtsAndCrosses {
         }
 
   
-
+        /// <summary>
+        /// Increments the scores for players and sets a congradulation label for 
+        /// whoever wins.
+        /// </summary>
         public void IncrementScore() {
             
             if (mainGrid.player.Equals(player1)) {
@@ -114,11 +126,22 @@ namespace NoughtsAndCrosses {
         } 
 
         
+        /// <summary>
+        /// Resets the score placed on the score board.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ResetScore_Click(object sender, EventArgs e) {
             Player1WinScoreLabel.Text = "0";
             Player2WinScoreLabel.Text = "0";
         }
 
+
+        /// <summary>
+        /// Starts a new game.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void StartNewGame_Click(object sender, EventArgs e) {
             WinnerLabel.Visible = false;
 

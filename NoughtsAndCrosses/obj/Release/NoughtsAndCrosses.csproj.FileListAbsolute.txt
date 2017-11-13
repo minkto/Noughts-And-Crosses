@@ -1,0 +1,8 @@
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\bin\Release\NoughtsAndCrosses.exe.config
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\bin\Release\NoughtsAndCrosses.exe
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\bin\Release\NoughtsAndCrosses.pdb
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Release\NoughtsAndCrosses.Form1.resources
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Release\NoughtsAndCrosses.Properties.Resources.resources
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Release\NoughtsAndCrosses.csproj.GenerateResource.Cache
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Release\NoughtsAndCrosses.exe
+C:\Users\Paul\Documents\My_Portfolio\git_projects\NoughtsAndCrosses\NoughtsAndCrosses\obj\Release\NoughtsAndCrosses.pdb

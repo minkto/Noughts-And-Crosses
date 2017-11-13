@@ -14,6 +14,9 @@ namespace NoughtsAndCrosses {
             symbol = "EMPTY";
         }
 
+        /// <summary>
+        /// The symbol of the current cell.
+        /// </summary>
         public string Symbol {
             get {
                 return symbol;
@@ -26,6 +29,10 @@ namespace NoughtsAndCrosses {
         }
 
 
+        /// <summary>
+        /// Checks to see if the current cell is empty.
+        /// </summary>
+        /// <returns></returns>
         public bool IsCellEmpty() {
             if (symbol.Equals("EMPTY")) {                             
                 return true;
